@@ -1,0 +1,324 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+img{
+  max-width: 100%;
+}
+
+
+.container{
+  width: 100%;
+  max-width: 1173px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu{
+  width: 100%;
+  max-width: 1173px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar{
+  width: 57px;
+  height: 57px;
+  background: url('https://pp.userapi.com/c849128/v849128444/172ca/zX2P_IWjfMc.jpg');
+  background-size: 100%;
+  border-radius: 50%;
+}
+
+.name{
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.description{
+  margin-left: 9px;
+}
+
+.menu-logo{
+  display: flex;
+  align-self: center;
+}
+
+.menu-list{
+ display: flex;
+  align-items: center;
+}
+
+.menu-list a{
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  position:relative;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+}
+.menu-list a:after{
+    transform:translateX(-50%);
+}
+
+.menu-button{
+ text-transform: uppercase;
+  font-style: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+.menu-button:hover{
+    background: #000;
+    color: #fff;
+    box-shadow: 0 0 0 3px rgba(45, 245, 245, 0.3);
+    transition: all 0.4s ease;
+}
+
+.hero{
+  padding-top: 112px;
+  padding-bottom: 112px;
+
+}
+.hero-info{
+     background: url(https://cdn1.savepice.ru/uploads/2019/1/27/1e1fd48482ac122986bbdd240151a5ec-full.png) no-repeat right bottom; 
+    
+}
+
+.hero-subtitle{
+  font-size: 32px;
+}
+.hero-title{
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.hero-discription{
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social{
+  margin-top: 26px;
+}
+
+.social{
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 12px; 
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.social:hover{
+  transform: scale(1.2);
+  transition: all 0.4s ease;
+}
+.behance-bg{
+  background-color: #1869ff;
+}
+.facebook-bg{
+  background-color: #3a5898;
+}
+.instagram-bg{
+  background-color: #13578a;
+}
+.vk-bg{
+  background-color: #56acef;
+}
+.hero-buttons{
+  margin-top: 40px;
+}
+.button{
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+  background-color: transparent;
+  color: #002;
+  border: 1px solid #6a696b;
+  margin-left: 17px;
+}
+.button:hover{
+    background: #000;
+    color: #fff;
+    box-shadow: 0 0 0 3px rgba(45, 245, 245, 0.3);
+    transition: all 0.4s ease;
+}
+
+
+.project{
+  padding: 97px 0;
+}
+.project-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-card{
+  height: 370px;
+  width: 370px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+}
+
+.project-card-image{
+  height: 300px;
+  width: 370px;
+}
+
+.landing-page{
+   background: url("https://static.collectui.com/shots/3576125/gorgias-homepage-large") center;
+  background-size: 100%;
+}
+.landing-page2{
+   background: url("https://img.freepik.com/free-vector/colorful-landing-page-template_52683-380.jpg?size=338&ext=jpg") center;
+  background-size: 100%;
+}
+.landing-page3{
+   background: url("https://www.lyfemarketing.com/blog/wp-content/uploads/2018/07/landing-page.jpg") center;
+  background-size: 100%;
+}
+.landing-page4{
+   background: url("https://www.leadforest.com/wp-content/uploads/29.jpg") center;
+  background-size: 100%;
+}
+.landing-page5{
+   background: url("https://webdesignmaster.ru/wp-content/uploads/2017/12/razrabotka-landing-page.jpg") center;
+  background-size: 100%;
+}
+.landing-page6{
+   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlrw7knIc9WgQYMYw23jFsXfyQiz-1nypQpQt-bp0LRzYPp5n7_Q") center;
+  background-size: 100%;
+}
+.landing-page7{
+   background: url("https://cdn.fatcatapps.com/wp-content/uploads/wordpress-landing-page-plugin-600x311.png") center;
+  background-size: 100%;
+}
+.landing-page8{
+   background: url("https://s3.amazonaws.com/blog.invisionapp.com/uploads/2016/08/landing-4.png") center;
+  background-size: 100%;
+}
+.landing-page9{
+   background: url("https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/free-landing-page-wordpress-themes.jpg") center;
+  background-size: 100%;
+}
+.project-category{
+  display: block;
+}
+.project-card-info{
+  padding: 19px 13px;
+}
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.footer{
+background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+
+.footer a{
+  color: #8d8d8e;
+  text-decoration: none;
+}
+
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text{
+  display: flex;
+  text-align: center;
+}
+
+.copyright{
+  padding-right: 16px;
+  margin-right: 16px;
+  padding-left: 139px;
+  border-right: 1px solid #413f41;
+  font-style: 14px;
+}
+
+.footer_social__links{
+  font-size:20px;
+  padding:15px;
+  padding-left: 10px;
+}
+
+.footer-menu{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menu a{
+  font-size:14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.footer-button{
+  border: 1px solid #8d8d8e;
+  border-radius: 50px;
+  padding: 8px 22px;
+}
+
+@media (max-width:1208px){
+  .container{
+    width: 965px;
+  }
+  .project-card{
+    width:48%;
+  }
+}
+@media(max-width: 992px){
+  .container{
+    width:760px;
+  }
+  .project-card{
+    width:45%;
+  }
+}
+@media(max-width: 768px){
+  .menu-list{
+    display: none;
+  }
+  .description-small{
+    font-size:10px;
+  }
+  .hero{
+    margin-bottom:50px;
+    padding-top: 100px;
+    
+  }
+  .container{
+    width:95%;
+  }
+  .project-card{
+    width:95%;
+    margin: 30px auto;
+  }
+}
